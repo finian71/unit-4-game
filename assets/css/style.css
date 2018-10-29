@@ -1,0 +1,63 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: url(../images/background/starcruiser.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#heading {
+  background: black;
+  color: purple;
+  text-align: center;
+  font-family: 'Monoton', cursive;
+}
+
+h2 {
+  color: purple;
+  -webkit-text-stroke: 1px black;
+  text-emphasis: bold;
+}
+
+#start,
+#enemies,
+#defender {
+  display: flex;
+}
+
+#darthVader {
+  background: black;
+  text-align: center;
+  color: antiquewhite;
+  border: purple 2px solid;
+  width: 75%;
+}
+#empPalpatine {
+  background: black;
+  text-align: center;
+  color: antiquewhite;
+  border: purple 2px solid;
+  width: 75%;
+}
+#kenobi {
+  background: black;
+  text-align: center;
+  color: antiquewhite;
+  border: purple 2px solid;
+  width: 75%;
+}
+#yoda {
+  background: black;
+  text-align: center;
+  color: antiquewhite;
+  border: purple 2px solid;
+  width: 75%;
+}
+
+#message {
+  background-color: black;
+  color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+}
